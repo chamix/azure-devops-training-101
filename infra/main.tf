@@ -19,7 +19,7 @@ data "azurerm_resource_group" "devopssa" {
 }
 
 resource "azurerm_storage_account" "example" {
-  name                     = "storageaccountname"
+  name                     = "camilosademo2021281258"
   resource_group_name      = data.azurerm_resource_group.devopssa.name
   location                 = data.azurerm_resource_group.devopssa.location
   account_tier             = "Standard"
